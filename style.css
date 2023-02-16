@@ -214,3 +214,12 @@ h5 {
 .daniel img,.patrick img {
   border: 2px solid #a775f1;
 }
+
+
+
+@media (max-width: 700){
+  main {
+    display: flex;
+    flex-flow: column;
+  }
+}
