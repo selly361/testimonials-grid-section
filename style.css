@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background: #ecf2f8;
+  display: grid;
+  place-items: center;
+}
+
+main {
+  width: 1110px;
+  height: 572px;
+  display: grid;
+  grid-template-columns: repeat(4, 255px);
+}
+
+.daniel {
+  grid-column: span 3;
+  background-image: url("./images/bg-pattern-quotation.svg");
+  background-position: top right 20px;
+  padding: 26px;
+  background: #733fc8;
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+  border-radius: 8px;
+}
